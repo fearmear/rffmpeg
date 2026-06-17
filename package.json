@@ -1,0 +1,17 @@
+{
+  "name": "rffmpeg",
+  "version": "1.0.0",
+  "description": "A simple CLI utility for recursive batch video conversion using ffmpeg.",
+  "main": "index.js",
+  "bin": {
+    "rffmpeg": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ffmpeg"
+  ],
+  "author": "fearmear",
+  "license": "ISC"
+}

@@ -83,8 +83,8 @@ for (const file of files) {
   if (outputSuffix && name.endsWith(outputSuffix)) continue;
 
   if (fs.existsSync(outputFile)) {
-    console.log(`Skipping ${file}: output already exists (${outputName})`);
-    continue;
+    console.log(`Found incomplete output for ${file} → ${outputName}, removing...`);
+    fs.unlinkSync(outputFile);
   }
 
   const fileMtime = getMtime(file);

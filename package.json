@@ -1,6 +1,6 @@
 {
   "name": "rffmpeg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI utility for recursive batch video conversion using ffmpeg.",
   "main": "index.js",
   "bin": {
